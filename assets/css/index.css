@@ -171,6 +171,7 @@ justify-content: center;
   margin: 20px;
   width: 500px;
   height: 400px;
+  
 }
 
 .Contact-us{
@@ -188,8 +189,11 @@ justify-content: center;
 
 
 .down-arrow{
-  line-height: 0.8;
+  line-height: 0.5;
+  /* position: relative; */
 }
+
+
 
 
 /* 
@@ -253,6 +257,30 @@ justify-content: center;
   align-items: center;
 }
 
+
+
+.video-sec1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-sec2{
+  justify-content: center;
+  align-items: center;
+}
+
+.videos{
+  text-align: center;
+}
+
+.video1{
+  margin-right: 40px;
+}
+.video2{
+  margin-left: 40px;
+}
+
 /* footer   ------------------------------------------- */
 
 footer{
@@ -276,7 +304,7 @@ footer{
   font-size: 30px;
 }
 
-.bx{
+.bx1{
   margin: 0 20px 0 0;
 }
 
@@ -289,6 +317,66 @@ footer{
 
   .timer {
     width: 60px;
+  }
+  .about-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-desc{
+    width: 500px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .sponsor-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsor-desc{
+    width: 500px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .contact-desc{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .rule-desc{
+    font-size: 15px;
+    width: 300px;
+  }
+  .rule-content{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video-sec1{
+    display: flex;
+    flex-direction: column;
+  }
+  .video1{
+    margin-right: 0px;
+  }
+  .video2{
+    margin-left: 0px;
   }
 }
 
@@ -308,5 +396,14 @@ footer{
 
   .timer {
     width: 50px;
+  }
+
+  .about-desc{
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
   }
 }
