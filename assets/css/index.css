@@ -223,6 +223,7 @@ justify-content: center;
  
 }
 .rule-content{
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -266,8 +267,10 @@ justify-content: center;
 }
 
 .video-sec2{
+  display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .videos{
@@ -276,9 +279,11 @@ justify-content: center;
 
 .video1{
   margin-right: 40px;
+  margin-top: 20px;
 }
 .video2{
   margin-left: 40px;
+  margin-top: 20px;
 }
 
 /* footer   ------------------------------------------- */
@@ -348,7 +353,14 @@ footer{
     flex-direction: column;
   }
 
+  .contact-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .map{
+    
     width: 400px;
     height: 300px;
     align-items: center;
